@@ -21,6 +21,13 @@ return [
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
         ],
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=example',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ],
         'session' => [
             // this is the name of the session cookie used for login on the backend
             'name' => 'advanced-backend',
@@ -33,6 +40,7 @@ return [
                     'levels' => ['error', 'warning'],
                 ],
             ],
+        
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

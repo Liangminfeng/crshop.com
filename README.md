@@ -24,7 +24,6 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 DIRECTORY STRUCTURE
 -------------------
 
-```
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
@@ -57,5 +56,6 @@ frontend
     widgets/             contains frontend widgets
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
-```
+
+
 # crshop.com
